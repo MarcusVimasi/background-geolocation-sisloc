@@ -89,6 +89,10 @@
                 <param name="android-package" value="com.transistorsoft.cordova.bggeo.CDVBackgroundGeolocation"/>
             </feature>
         </config-file>
-    
+        <config-file parent="/manifest/application" target="app/src/main/AndroidManifest.xml">
+          <meta-data
+            android:name="com.transistorsoft.locationmanager.license_key"
+            android:value="4f6d67c5d25e59845a369f580b917c749073763a81cbaf9d6c891e433aa7c248" />
+        </config-file>
      </platform>
 </plugin>
